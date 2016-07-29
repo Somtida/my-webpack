@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
-import Welcome from './Welcome'
-import Navbar from './Navbar'
+import React, { Component } from 'react';
+import Navbar from './Navbar';
 
 export default class App extends Component {
-  render(){
+  render() {
     return (
       <div>
         <Navbar />
-        <Welcome />
+        <div className="container">
+          {this.props.children}
+        </div>
       </div>
-    )
+    );
   }
 }

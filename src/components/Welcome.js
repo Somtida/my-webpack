@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 // import React, { Component } from 'react'
 
 // export default class Welcome extends Component{
@@ -21,8 +21,8 @@ import React from 'react'
 //   )
 // }
 export default () => (
-    <div>
-      <h1>Hello from funcitonal component!</h1>
-      <p>React is cool</p>
-    </div>
-)
+  <div className="container">
+    <h1>Hello from funcitonal component!</h1>
+    <p>React is cool</p>
+  </div>
+);
